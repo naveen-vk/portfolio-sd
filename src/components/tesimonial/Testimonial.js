@@ -37,7 +37,7 @@ const Testimonial = () => {
        dots: true,
        infinite: true,
        speed: 500,
-       slidesToShow: 1,
+       slidesToShow: 4,
        slidesToScroll: 1,
        nextArrow:<SampleNextArrow />,
        prevArrow:<SamplePrevArrow />,
@@ -93,38 +93,46 @@ const Testimonial = () => {
       id="testimonial"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <div className="flex justify-center items-center text-center">
+
+      <div className="justify-center items-center text-center">
         <Title title="WHAT CLIENTS SAY" des="Testimonial" />
       </div>
-      <div className="max-w-6xl mx-auto">
-        {/* ================ Slider One ================== */}
-        <Slider {...settings}>
-          <div className="w-full">
-            
-               
-                <div className="w-full flex flex-col justify-end">
-                  
-                  
-                 
-             
-              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
-        
-                
-                  
-                    <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        After School Diaries 
-                      </h3>
-                    </div>
-                    
-                  </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Very good concept of bundling all the old cartoons and shows' songs together on one page. It is quite nostalgic for the Gen Z. The slide effect is amazing and UI is smooth. Very good project !
-                  </p>
-                </div>
-              </div>
-            
+      <Slider {...settings}>
+      
+            <div className="flex-initial w-64">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+              Navin Dholakia ( nana Ji )
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                We both proud of you and you did great job for both kids and give them right direction of life and we pray to God’s for your success and also both kids and God’s bless to everyone and Love you.</p>            
+            </div>
+            <div className="flex-initial w-64">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                Selvi💕
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                Hi Shweta, Sanjana sang beautifully yesterday with a steady voice and calm demeanor. The 2 and half hours was mesmerising. You and Jagadeesh must be very proud of her. Yesterday you were busy and couldn't pass my message. Thank you for inviting us.                </p>
+            </div>
+            <div className="flex-initial w-64">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+              Smita Mausi
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                You are such a wonderful nurturing beautiful person and the strength and commitment behind Sanjana’s amazing experience. Everyone thoroughly enjoyed today! So happy to be part of it! Thank you for the lovely gifts in the goody bag!</p>           
+            </div>
+            <div className="flex-initial w-64">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                Selvi💕
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                Just finished watching the entire youtube recording of the performance. I have tears of joy …… Jaggi and you should be so proud ❤️❤️❤️ love and many blessings.</p>
+            </div>
           
+        {/* ================ Slider One ================== */}
+
+
+
+                    
           {/* ================ Slider Two ================== */}
 
           <div className="w-full">
@@ -220,7 +228,7 @@ const Testimonial = () => {
             </div>
           </div>
         </Slider>
-      </div>
+
     </section>
   );
 }
