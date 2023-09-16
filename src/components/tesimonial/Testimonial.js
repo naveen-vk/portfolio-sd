@@ -38,6 +38,9 @@ const Testimonial = () => {
        infinite: true,
        speed: 500,
        slidesToShow: 4,
+       rows: 2,
+       centerMode: true,
+       centerPadding: "60px",
        slidesToScroll: 1,
        nextArrow:<SampleNextArrow />,
        prevArrow:<SamplePrevArrow />,
@@ -99,134 +102,118 @@ const Testimonial = () => {
       </div>
       <Slider {...settings}>
       
-            <div className="flex-initial w-64">
+            <div className="flex-auto w-64 p-8">
               <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
               Navin Dholakia ( nana Ji )
               </h3>
                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                 We both proud of you and you did great job for both kids and give them right direction of life and we pray to God’s for your success and also both kids and God’s bless to everyone and Love you.</p>            
             </div>
-            <div className="flex-initial w-64">
+            <div className="flex-auto w-64 p-8">
               <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                 Selvi💕
               </h3>
                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                 Hi Shweta, Sanjana sang beautifully yesterday with a steady voice and calm demeanor. The 2 and half hours was mesmerising. You and Jagadeesh must be very proud of her. Yesterday you were busy and couldn't pass my message. Thank you for inviting us.                </p>
             </div>
-            <div className="flex-initial w-64">
+            <div className="flex-auto w-64 p-8">
               <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
               Smita Mausi
               </h3>
                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                 You are such a wonderful nurturing beautiful person and the strength and commitment behind Sanjana’s amazing experience. Everyone thoroughly enjoyed today! So happy to be part of it! Thank you for the lovely gifts in the goody bag!</p>           
             </div>
-            <div className="flex-initial w-64">
+            <div className="flex-auto w-64 p-8">
               <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                 Selvi💕
               </h3>
                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                 Just finished watching the entire youtube recording of the performance. I have tears of joy …… Jaggi and you should be so proud ❤️❤️❤️ love and many blessings.</p>
             </div>
-          
-        {/* ================ Slider One ================== */}
-
-
-
-                    
-          {/* ================ Slider Two ================== */}
-
-          <div className="w-full">
-            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
-              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
-                <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialTwo}
-                  alt="testimonialTwo"
-                />
-                <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Iron Man
-                  </p>
-                  <h3 className="text-2xl font-bold">Tony Stark</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Sr. Data Scientist
-                  </p>
-                </div>
-              </div>
-              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
-                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
-                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                    <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        IPL Win Predictor
-                      </h3>
-                      <p className="text-base text-gray-400 mt-3"  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                        via Fiverr - May 2023
-                      </p>
-                    </div>
-                    <div className="text-yellow-500 flex gap-1">
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                    </div>
-                  </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  Very useful project for predicting the win probability of chasing team using historical ipl data from kaggle and logistic regression for binary classification. 
-                  </p>
-                </div>
-              </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+              Navin Dholakia ( nana Ji )
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                We both proud of you and you did great job for both kids and give them right direction of life and we pray to God’s for your success and also both kids and God’s bless to everyone and Love you.</p>            
             </div>
-          </div>
-          {/* ================ Slider Three ================== */}
-
-          <div className="w-full">
-            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
-              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
-                <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialThree}
-                  alt="testimonialThree"
-                />
-                <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Tech Visionary
-                  </p>
-                  <h3 className="text-2xl font-bold">Sundar Pichai</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Google CEO
-                  </p>
-                </div>
-              </div>
-              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
-                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
-                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                    <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Secrets Sharing Website
-                      </h3>
-                      <p className="text-base text-gray-400 mt-3" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                        via Freelancer - Mar 2023
-                      </p>
-                    </div>
-                    <div className="text-yellow-500 flex gap-1">
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                    </div>
-                  </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  Hi Shweta, Sanjana sang beautifully yesterday with a steady voice and calm demeanor. The 2 and half hours was mesmerising. You and Jagadeesh must be very proud of her. Yesterday you were busy and couldn't pass my message. Thank you for inviting us. Selvi💕
-                   </p>
-                </div>
-              </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                Selvi💕
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                Hi Shweta, Sanjana sang beautifully yesterday with a steady voice and calm demeanor. The 2 and half hours was mesmerising. You and Jagadeesh must be very proud of her. Yesterday you were busy and couldn't pass my message. Thank you for inviting us.                </p>
             </div>
-          </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+              Smita Mausi
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                You are such a wonderful nurturing beautiful person and the strength and commitment behind Sanjana’s amazing experience. Everyone thoroughly enjoyed today! So happy to be part of it! Thank you for the lovely gifts in the goody bag!</p>           
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                Selvi💕
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                Just finished watching the entire youtube recording of the performance. I have tears of joy …… Jaggi and you should be so proud ❤️❤️❤️ love and many blessings.</p>
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+              Navin Dholakia ( nana Ji )
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                We both proud of you and you did great job for both kids and give them right direction of life and we pray to God’s for your success and also both kids and God’s bless to everyone and Love you.</p>            
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                Selvi💕
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                Hi Shweta, Sanjana sang beautifully yesterday with a steady voice and calm demeanor. The 2 and half hours was mesmerising. You and Jagadeesh must be very proud of her. Yesterday you were busy and couldn't pass my message. Thank you for inviting us.                </p>
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+              Smita Mausi
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                You are such a wonderful nurturing beautiful person and the strength and commitment behind Sanjana’s amazing experience. Everyone thoroughly enjoyed today! So happy to be part of it! Thank you for the lovely gifts in the goody bag!</p>           
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                Selvi💕
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                Just finished watching the entire youtube recording of the performance. I have tears of joy …… Jaggi and you should be so proud ❤️❤️❤️ love and many blessings.</p>
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+              Navin Dholakia ( nana Ji )
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                We both proud of you and you did great job for both kids and give them right direction of life and we pray to God’s for your success and also both kids and God’s bless to everyone and Love you.</p>            
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                Selvi💕
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                Hi Shweta, Sanjana sang beautifully yesterday with a steady voice and calm demeanor. The 2 and half hours was mesmerising. You and Jagadeesh must be very proud of her. Yesterday you were busy and couldn't pass my message. Thank you for inviting us.                </p>
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+              Smita Mausi
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                You are such a wonderful nurturing beautiful person and the strength and commitment behind Sanjana’s amazing experience. Everyone thoroughly enjoyed today! So happy to be part of it! Thank you for the lovely gifts in the goody bag!</p>           
+            </div>
+            <div className="flex-auto w-64 p-8">
+              <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                Selvi💕
+              </h3>
+                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                Just finished watching the entire youtube recording of the performance. I have tears of joy …… Jaggi and you should be so proud ❤️❤️❤️ love and many blessings.</p>
+            </div>
         </Slider>
 
     </section>
