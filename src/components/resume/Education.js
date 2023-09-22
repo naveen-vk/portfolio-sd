@@ -17,22 +17,10 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BTech in Information Technology"
-            subTitle="Veermata Jijabai Technological Institute (2020 - 2024)"
-            result="7.5 CPI"
-            des="Studied IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
-          />
-          <ResumeCard
-            title="Higher Secondary Education"
-            subTitle="Rustomjee International School and Junior College (2018 - 2020)"
-            result="88.15%"
-            des="Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education. "
-          />
-          <ResumeCard
-            title="Primary & Secondary School Education"
-            subTitle="Rustomjee International School (2005 - 2018)"
-            result="94.20% "
-            des="Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences."
+            title="Whitney M Young Magnet High School"
+            subTitle="Honor roll/Principal's Scholar"
+            result="5.07 GPA"
+            des="AP Scholar with disticntion"
           />
         </div>
       </div>
