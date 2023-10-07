@@ -26,7 +26,7 @@ const Education = () => {
       </div>
       {/* part Two */}
 
-      <div>
+      {/*<div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2020 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
@@ -51,7 +51,7 @@ const Education = () => {
             des=" Learned basics of Neo4j - a database management system "
           />
         </div>
-      </div>
+  </div> */}
     </motion.div>
   );
 }

@@ -11,17 +11,17 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2023 - 20XX</p>
+          <p className="text-sm text-designColor tracking-[4px]"></p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google - (20XX - Present) [Goal in my bucketlist]"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Desk Manager"
+            subTitle="L + A Healing Studio"
+            result="Chicago"
+            des="Managed the organization of clients' files and forms"
           />
-          <ResumeCard
+         {/* <ResumeCard
             title="Web Developer & Trainer"
             subTitle="Apple Developer Team - (20XX - 20XX) [Goal in my bucketlist]"
             result="USA"
@@ -32,10 +32,10 @@ const Experience = () => {
             subTitle="Xemi - (5/6/2023 - 5/9/2023)  [3 months]"
             result="Mumbai, Maharashtra"
             des="Writing Web Scrapping codes to extract required data for website’s database and training ML models. Mode of work: Hybrid."
-          />
+  />*/}
         </div>
       </div>
-      <div>
+      {/*<div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">20XX - 20XX</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
@@ -59,8 +59,8 @@ const Experience = () => {
             result="India"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
           />
-        </div>
-      </div>
+</div>
+</div>*/}
     </motion.div>
   );
 };
