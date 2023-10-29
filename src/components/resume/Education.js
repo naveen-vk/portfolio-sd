@@ -15,13 +15,15 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2005 - 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Educational Qualification</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="flex-1">
+        <div className="mt-14 w-full h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Whitney M Young Magnet High School"
             subTitle="Honor roll/Principal's Scholar"
             result="5.07 GPA"
             des="AP Scholar with disticntion"
           />
+        </div>
         </div>
       </div>
       {/* part Two */}
