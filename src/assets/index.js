@@ -2,7 +2,7 @@ import logo from "./images/logo2.png";
 import bannerImg from "./images/banner.jpeg";
 import project1 from "./images/projects/project1.png";
 import project2 from "./images/projects/project2.png";
-import projectThree from "./images/projects/projectThree.png";
+import project4 from "./images/projects/project4.png";
 import projectFour from "./images/projects/projectFour.png";
 import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
@@ -17,7 +17,7 @@ export {
   bannerImg,
   project1,
   project2,
-  projectThree,
+  project4,
   projectFour,
   projectFive,
   projectSix,

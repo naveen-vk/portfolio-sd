@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { project1, project2, projectThree,projectFour,projectFive,projectSix} from "../../assets/index";
+import { project1, project2, project4,projectFour,projectFive,projectSix} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -11,8 +11,8 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="Check these out on my github"
-          des="My Projects"
+          title="Check out my singing videos"
+          des="MY VOCALS"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
@@ -27,11 +27,14 @@ const Projects = () => {
           githubLink="https://www.youtube.com/watch?v=Q0f8BlDPJRc"
         />
         <ProjectsCard
-          title="Secret Sharing Website"
-          des=" This is a website for posting secrets anonymously with an authentication system ."
-          src={projectThree}
-          githubLink="https://github.com/mihirc0111/Secrets"
-          websiteLink="https://mihirs-secrets-sharing-website.onrender.com/"
+          title="Kum. Sanjana Devarajan’s Arangetram Promo"
+          src={project4}
+          githubLink="https://www.facebook.com/550106724/videos/1128049704821172/"
+        />
+        <ProjectsCard
+          title="Kum. Sanjana Devarajan’s Arangetram Promo "
+          src={project4}
+          githubLink="https://www.facebook.com/550106724/videos/1128049704821172/"
         />
         <ProjectsCard
           title="After School Diaries"
