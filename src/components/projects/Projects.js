@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { project1, project2, project4,projectFour,projectFive,projectSix} from "../../assets/index";
+import { project1, project2, project4,project5,projectFive,projectSix} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -22,40 +22,19 @@ const Projects = () => {
           githubLink="https://www.youtube.com/watch?v=ieXCBMZPHf0&t=924s"
         />
         <ProjectsCard
-          title="HTGC Ekanta Seva 6.11.22 - Venkata Ramana"
-          src={project1}
-          githubLink="https://www.youtube.com/watch?v=Q0f8BlDPJRc"
+          title="Kum. Sanjana Devarajan’s Arangetram "
+          src={project5}
+          githubLink="https://www.youtube.com/watch?v=urluQnchQXw"
         />
         <ProjectsCard
           title="Kum. Sanjana Devarajan’s Arangetram Promo"
           src={project4}
           githubLink="https://www.facebook.com/550106724/videos/1128049704821172/"
-        />
+        />        
         <ProjectsCard
-          title="Kum. Sanjana Devarajan’s Arangetram Promo "
-          src={project4}
-          githubLink="https://www.facebook.com/550106724/videos/1128049704821172/"
-        />
-        <ProjectsCard
-          title="After School Diaries"
-          des=" To create a website which plays Cartoon/Show songs' audio when user clicks on a particular cartoon image. Using HTML,CSS,JS,Bootstrap to bundle the songs we loved during our childhood!"
-          src={projectFour}
-          githubLink="https://github.com/mihirc0111/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website"
-          websiteLink="https://mihirc0111.github.io/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website/"
-        />
-        <ProjectsCard
-          title="Weather Website"
-          des=" This is a weather website created using HTML,CSS,Bootstrap,Node.js,Express.js and OpenWeather API ."
-          src={projectFive}
-          githubLink="https://github.com/mihirc0111/Weather-Website-UsingAPI--node.js--express.js"
-          websiteLink="https://mihirs-weather-website.onrender.com/"
-        />
-        <ProjectsCard
-          title="Face Detection"
-          des=" This project uses various libraries like to detect human face from a given image, detect a face from a live -webcam video and to create an attendance system."
-          src={projectSix}
-          githubLink="https://github.com/mihirc0111/Face-Detection-ML-Project-Python.git"
-          websiteLink=""
+          title="HTGC Ekanta Seva 6.11.22 - Venkata Ramana"
+          src={project1}
+          githubLink="https://www.youtube.com/watch?v=Q0f8BlDPJRc"
         />
       </div>
     </section>
