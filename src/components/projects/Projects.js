@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour,projectFive,projectSix} from "../../assets/index";
+import { project1, project2, projectThree,projectFour,projectFive,projectSix} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -17,19 +17,14 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="IPL-Win-Predictor"
-          des=" A ML project using logistic regression to find out the win probability of the chasing team in an IPL match. Used Kaggle dataset from 2008-2019."
-          src={projectOne}
-          githubLink="https://github.com/mihirc0111/IPL-Predictor-Mihir"
-          websiteLink="https://mihirc0111-ipl-predictor-mihir-app-8s1ct4.streamlit.app/"
-
+          title="Kum. Sanjana Devarajan’s Vocal Arangetram "
+          src={project2}
+          githubLink="https://www.youtube.com/watch?v=ieXCBMZPHf0&t=924s"
         />
         <ProjectsCard
-          title="Mi-Blog-Van"
-          des=" This is a blog website have a EJS, Node & Express as backend and Mongoose & MongoDB database."
-          src={projectTwo}
-          githubLink="https://github.com/mihirc0111/Mi-Blog-Van"
-          websiteLink="https://mihirs-blog-website.onrender.com/"
+          title="HTGC Ekanta Seva 6.11.22 - Venkata Ramana"
+          src={project1}
+          githubLink="https://www.youtube.com/watch?v=Q0f8BlDPJRc"
         />
         <ProjectsCard
           title="Secret Sharing Website"
