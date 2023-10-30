@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Carnatic Singer.", "Forever Whitney Young.", "Computer Science Enthusiast."],
+      words: ["Carnatic Singer.", "Whitney Young senior", "Computer Science Enthusiast."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,

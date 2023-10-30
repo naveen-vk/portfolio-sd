@@ -8,7 +8,7 @@ const ResumeCard = ({title,subTitle,result,des,des1,des2,des3}) => {
           <span className="w-3 h-3 rounded-full bg-bodyColor inline-flex group-hover:bg-designColor duration-300"></span>
         </span>
       </div>
-      <div className="w-full h-40 bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg lgl:px-5 flex flex-col justify-center shadow-shadowOne">
+      <div className="w-full h-40 bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg lgl:px-5 px-2 flex flex-col justify-center shadow-shadowOne">
         <div className="flex flex-col pt-4 lgl:flex-row justify-between gap-0 lgl:gap-0 lgl:items-center">
           <div>
             <h3 className="text-xl md:text-2xl font-semibold group-hover:text-white duration-300">
@@ -19,6 +19,7 @@ const ResumeCard = ({title,subTitle,result,des,des1,des2,des3}) => {
             </p>
           </div>
         </div>
+
         <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
           {des}
         </p>

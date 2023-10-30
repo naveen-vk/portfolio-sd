@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import {  FaLinkedinIn } from "react-icons/fa";
+import {  FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { SiGithub,SiGmail } from "react-icons/si";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
@@ -46,7 +46,6 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -75,13 +74,16 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <SiGithub />
+                  <a href="https://www.linkedin.com/in/sanjana-devarajan-a86618267/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedinIn /></a>
                   </span>
                   <span className="bannerIcon">
-                    <SiGmail />
+                  <a href="mailto:sdevarajan2006@gmail.com">
+                    <SiGmail /></a>
                   </span>
                   <span className="bannerIcon">
-                    <FaLinkedinIn />
+                  <a href="https://www.youtube.com/@shwetaparthasarathy" target="_blank" rel="noopener noreferrer">
+                    <FaYoutube /></a>
                   </span>
                 </div>
               </div>

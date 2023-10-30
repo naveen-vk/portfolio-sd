@@ -22,9 +22,9 @@ const Achievement = () => {
           />
                   <ResumeCard
             title="Chicago Teen Mentors- Volunteer"
-            des="Chicago Teen Mentors’ goal is to provide free educational support for
-            CPS students in need. They offer 1-on-1 tutoring over Zoom in math
-            and reading, exclusively for 3rd to 10th-grade CPS students"
+            des={['Chicago Teen Mentors goal is to provide free educational support for',
+            'and reading, exclusively for 3rd to 10th-grade CPS students','CPS students in need. They offer 1-on-1 tutoring over Zoom in math',
+            ]}
           />
         </div>
         

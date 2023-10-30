@@ -19,9 +19,7 @@ function App() {
         <Projects />
         <Resume />
         <Testimonial />
-        <Contact />
         <Footer />
-        <FooterBottom />
       </div>
     </div>
   );
