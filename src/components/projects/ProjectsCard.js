@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsGithub } from "react-icons/bs";
+import { BsYoutube } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
 const ProjectsCard = ({ title, des, src,githubLink,websiteLink }) => {
@@ -21,11 +21,7 @@ const ProjectsCard = ({ title, des, src,githubLink,websiteLink }) => {
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
               <a href={githubLink} target="_blank" rel="noopener noreferrer">
-                <BsGithub /></a>
-              </span>
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-              <a href={websiteLink} target="_blank" rel="noopener noreferrer">
-                <FaGlobe /></a>
+                <BsYoutube /></a>
               </span>
             </div>
           </div>
