@@ -73,7 +73,7 @@ const Resume = () => {
                 : "border-transparent"
             } resumeLi`}
           >
-            Achievements
+In Schools Activities
           </li>
         </ul>
       </div>
